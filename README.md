@@ -1,0 +1,16 @@
+# php_router_classic
+1-
+php composer.phar require symfony/var-dumper --dev
+
+2-
+require (vendor/autoload.php);
+
+3-
+
+----------------------------------
+
+## pour lancer le serveur web apartir de public en se mettant dans le repertoir r18_router
+ php -S localhost:8000 -t public
+
+## instalation library r18_router
+composer require altorouter/altorouter
